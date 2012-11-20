@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="mobilePT.activities"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".MobilePTActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".ExerciseActivity" android:screenOrientation="portrait" android:label="@string/exerciseListLabel"></activity>
+        <activity android:name=".ProfileActivity" android:screenOrientation="portrait" android:label="@string/profileListLabel"></activity>
+        <activity android:name=".HowToActivity" android:screenOrientation="portrait" android:label="@string/howToLabel"></activity>
+        <activity android:name=".ExerciseBriefingActivity" android:screenOrientation="portrait" android:label="@string/exerciseExecutionLabel"></activity>
+        <activity android:name=".exercises.ArmWaveUpDownActivity" android:screenOrientation="portrait" android:label="@string/exerciseExecutionLabel"></activity>
+        <activity android:name=".howto.ArmWaveUpDownHowToActivity" android:screenOrientation="portrait" android:label="@string/exerciseExecutionLabel"></activity>
+        <activity android:name=".exercises.WristFlexorActivity" android:screenOrientation="portrait" android:label="@string/exerciseExecutionLabel"></activity>
+        <activity android:name=".howto.WristFlexorHowToActivity" android:screenOrientation="portrait" android:label="@string/exerciseExecutionLabel"></activity>
+        <activity android:name=".exercises.ArmWaveSideToSideActivity" android:screenOrientation="portrait" android:label="@string/exerciseExecutionLabel"></activity>
+        <activity android:name=".howto.ArmWaveSideToSideHowToActivity" android:screenOrientation="portrait" android:label="@string/exerciseExecutionLabel"></activity>
+    </application>
+</manifest>

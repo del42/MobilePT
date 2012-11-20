@@ -1,0 +1,49 @@
+/**
+ * @author Jude Morrissey Cruz and Delgersuren Bold
+ * 			San Francisco State University, Fall 2011, CSC 780
+ */
+
+package mobilePT.activities;
+
+import java.io.IOException;
+
+import android.media.MediaPlayer;
+import android.os.Vibrator;
+
+/**
+ * this class is a helper object to perform audio and haptic feedback
+ */
+public class MediaObj {
+    
+	public void playSound(MediaPlayer mp, String path){
+    	try {
+ 	        mp.setDataSource(path);
+ 	    } catch (IllegalArgumentException e) {
+ 	        e.printStackTrace();
+ 	    } catch (IllegalStateException e) {
+ 	        e.printStackTrace();
+ 	    } catch (IOException e) {
+ 	        e.printStackTrace();
+ 	    }
+    	
+ 	    try {
+ 	        mp.prepare();
+ 	    } catch (IllegalStateException e) {
+ 	        e.printStackTrace();
+ 	    } catch (IOException e) {
+ 	        e.printStackTrace();
+ 	    }
+ 	    mp.start();
+	}
+	
+    	
+    public void vibrate(Vibrator vib){
+    	long vibLen = 1000;
+		vib.vibrate(vibLen);
+	}
+    
+    
+    public void vibrate(Vibrator vib, long vibLen){
+		vib.vibrate(vibLen);
+	}
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:weightSum="1">
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_gravity="center" android:text="Settings...\n"></TextView>
+    <RelativeLayout android:layout_width="fill_parent" android:id="@+id/relativeLayout1" android:layout_height="wrap_content">
+        <LinearLayout android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:layout_alignParentTop="true" android:layout_alignParentLeft="true">
+            <Button android:id="@+id/button1" android:layout_gravity="center_horizontal" android:text="Set Reminder" android:layout_height="64dp" android:layout_width="wrap_content"></Button>
+            <Button android:id="@+id/button2" android:layout_gravity="center_horizontal" android:text="Set Exercise" android:layout_height="70dp" android:layout_width="wrap_content"></Button>
+            <Button android:id="@+id/HeyButton" android:layout_gravity="center_horizontal" android:text="Test" android:layout_width="wrap_content" android:layout_height="80dp"></Button>
+        </LinearLayout>
+    </RelativeLayout>
+    
+</LinearLayout>

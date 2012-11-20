@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/78/trunk/MobilePT
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/19/trunk/MobilePT/default.properties
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/72/trunk/MobilePT/AndroidManifest.xml
+END
+wekaSTRIPPED.jar
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/65/trunk/MobilePT/wekaSTRIPPED.jar
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/19/trunk/MobilePT/.project
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/19/trunk/MobilePT/proguard.cfg
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/64/trunk/MobilePT/.classpath
+END
